@@ -1,4 +1,5 @@
 import { ShopItemClass } from './components/ShopItemClass'
+import { ShopItemFunc } from './components/ShopItemFunc'
 import './App.css'
 
 const item = {
@@ -18,7 +19,7 @@ function App() {
           <div className='highlight-overlay'></div>
         </div>
         <div className="window">
-          <ShopItemClass item={item} />
+          <ShopItemFunc item={item} />
         </div>
       </div>
   )
