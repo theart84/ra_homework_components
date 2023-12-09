@@ -6,6 +6,7 @@ branches:
 cache: node_modules # кеширование
 install:
   - npm install # команда установки зависимостей
+  - npm install push-dir@0.4.1
 build: off
 build_script:
   - npm run build # команда сборки
